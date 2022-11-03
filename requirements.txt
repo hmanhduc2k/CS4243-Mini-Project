@@ -1,0 +1,7 @@
+# --------- Deep Learning --------- #
+pytorch
+transformers
+
+# --------- Scientific Library --------- #
+numpy~=1.23.1
+pandas~=1.4.3
