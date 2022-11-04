@@ -22,5 +22,5 @@ touch "${THREAT_TEMP_LABELLED}"
 ls cs4243_smallest/threat > "${THREAT_TEMP}"
 awk '{print "threat/"$0", 2"}' "${THREAT_TEMP}" > "${THREAT_TEMP_LABELLED}"
 
-echo "directory, label" > dataset.csv
-cat "${NORMAL_TEMP_LABELLED}" "${CARRYING_TEMP_LABELLED}" "${THREAT_TEMP_LABELLED}" >> dataset.csv
+# echo "directory, label" > dataset.csv
+cat "${NORMAL_TEMP_LABELLED}" "${CARRYING_TEMP_LABELLED}" "${THREAT_TEMP_LABELLED}" > dataset.csv
